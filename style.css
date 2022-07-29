@@ -1,0 +1,52 @@
+.carousel-content {
+  position: absolute;
+  top: 30%;
+}
+@media screen and (max-width: 574px) {
+  .carousel-content {
+    top: 10%;
+  }
+  .carousel-content h1 {
+    font-size: 20px;
+  }
+  .carousel-content p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+.carousel-item::before {
+  content: "";
+  height: 100%;
+
+  width: 100%;
+  background-color: #514b4773;
+  position: absolute;
+}
+
+.join__btn {
+  text-align: right;
+}
+@media screen and (max-width: 574px) {
+  .course {
+    flex-direction: column;
+  }
+  .course img {
+    width: 100%;
+  }
+  .join__content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .join__btn {
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 999px) {
+  .join__content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .join__btn {
+    text-align: center !important;
+  }
+}
